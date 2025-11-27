@@ -94,7 +94,7 @@ src/
 # 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/HarshitDevsainia/Task-Manager-App.git
 cd TaskManagerApp
 ```
 
