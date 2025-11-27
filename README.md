@@ -68,15 +68,25 @@ A modern and responsive Task Manager App built using React (JavaScript) and Tail
 
 ```bash
 src/
+│
 ├── components/
-│   ├── TaskCard.jsx
-│   ├── TaskForm.jsx
-│   └── ThemeToggle.jsx
+│   ├── TaskInput.jsx
+│   ├── TaskItem.jsx
+│   ├── FilterBar.jsx
+│   ├── Header.jsx
+│   ├── MainArea.jsx
+│   ├── Icon.jsx
+│
+├── context/
+│   └── TaskContext.jsx
+│
+├── hooks/
+│   └── useLocalStorage.js
+│
 ├── pages/
-│   └── AdvancedTaskManager.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
+│   └── AdvancedTaskManager.jsx   (Main exported page)
+│
+└── index.js
 ```
 
 # 📦 Installation
